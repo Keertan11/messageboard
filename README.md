@@ -6,7 +6,6 @@ A simple messageboard application built with Node.js, Express, and EJS. This app
 
 - View all messages on the main page.
 - Add new messages using a form.
-- View details of a single message.
 - Simple and easy-to-use interface.
 
 ## Tech Stack
@@ -16,9 +15,7 @@ A simple messageboard application built with Node.js, Express, and EJS. This app
 - **Database**: In-memory array for storing messages (no persistent database, messages are lost when the server restarts)
 - **Middleware**: Express's `express.urlencoded()` to parse form data
 
-## Installation
 
-1. Clone the repository to your local machine:
-
+Clone the repository to your local machine:
    ```bash
    git clone https://github.com/Keertan/messageboard.git
